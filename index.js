@@ -7,7 +7,7 @@ module.exports = {
             return '';
         } else {
             const parser = CsvParserFactory.getParser(schema);
-            const data = await parser.parse(path);
+            const data = await parser.parse(path, schema);
             return data;
         }
     }
