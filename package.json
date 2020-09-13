@@ -1,12 +1,16 @@
 {
   "name": "treeset",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library that aims to read and parse csv file on the go based on specified contract",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "https://github.com/JosePaniagua7",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosePaniagua7/CsvNodeParser/tree/develop"
+  },
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
