@@ -2,6 +2,15 @@
   "name": "treeset",
   "version": "1.0.0",
   "description": "Library that aims to read and parse csv file on the go based on specified contract",
+  "keywords": [
+    "Csv",
+    "CsvParse",
+    "CsvParser",
+    "ParseCsv",
+    "Node",
+    "Parse",
+    "Parser"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
