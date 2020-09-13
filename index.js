@@ -2,12 +2,11 @@ const CsvParserFactory = require('./CsvParserFactory');
 
 module.exports = {
     parse: async (path, ...options) => {
-        if (path) {
+        if (!path) {
             console.log('Indicate at least one path!!!');
-            return;
+            return '';
         } else {
             const parser = CsvParserFactory.getParser(options);
-            // const data = await parser.parse('./addresses.csv');
             const data = await parser.parse(path);
             return data;
         }
