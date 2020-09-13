@@ -6,7 +6,6 @@ class CsvParserNoSchema extends CsvParser {
         super();
     }
 
-
     parse = async (file_path) => {
         const raw_data = await this.readData(file_path);
         const lines = raw_data.split('\n');
