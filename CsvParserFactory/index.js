@@ -1,8 +1,6 @@
 const { CsvParserNoSchema } = require('../CsvParsers/CsvParserNoSchema');
+const { CsvParserWithSchema } = require('../CsvParsers/CsvParserWithSchema');
 
 module.exports = {
-    getParser: (options) => {
-        // if (options.length);
-        return new CsvParserNoSchema();
-    }
+    getParser: (schema) => Object.keys(schema).length ? new CsvParserWithSchema() : new CsvParserNoSchema()
 }
