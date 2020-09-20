@@ -34,6 +34,9 @@ const parseLine = (line_attributes, schema) => {
     return line_object;
 };
 
-const getAttributeValue = (line_attributes, { source_index }) => line_attributes[source_index]
+const getAttributeValue = (line_attributes, { source_index, parse }) =>
+    parse
+        ? parse(line_attributes[source_index])
+        : line_attributes[source_index];
 
 module.exports = { CsvParserWithSchema };
