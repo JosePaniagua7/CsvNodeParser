@@ -20,7 +20,7 @@ class CsvParserWithSchema extends CsvParser {
             rows.push(parsedLine);
         });
 
-        return { rows };
+        return rows;
     }
 }
 
