@@ -15,7 +15,6 @@ The basic usage of this library consist in a simple csv file reader where you ca
     Stephen,Tyler,"7452 Terrace ""At the Plaza"" road",SomeTown,SD, 91234
     ,Blankman,,SomeTown, SD, 00298
     "Joan ""the bone"", Anne",Jet,"9th, at Terrace plc",Desert City,CO,00123
-    --------------------------------------------------------------------------------
 
 You can use the following code:
 
