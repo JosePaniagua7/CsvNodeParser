@@ -1,6 +1,6 @@
 {
   "name": "csv_node_parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library that aims to read and parse csv file on the go based on specified contract",
   "keywords": [
     "Csv",
